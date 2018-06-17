@@ -4,4 +4,4 @@
 
 ### Links
 * Link to the landing page - https://artyom123.github.io/magic-game/
-* Link to the game -
+* Link to the game - https://artyom123.github.io/game/public/

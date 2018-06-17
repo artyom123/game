@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/artyom123"
   },
-  "author": "arsafab",
+  "author": "artyom123",
   "dependencies": {
     "babel-core": "6.26.0",
     "babel-loader": "7.1.2",

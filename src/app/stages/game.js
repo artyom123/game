@@ -105,6 +105,7 @@ export default class Game {
 
             this.createFight(this.x, this.y);
             this.drawEntity(this.fight);
+            this.form.magic.classList.remove('hidden');
         }
 
         if (this.fireBangHero && this.xFire > this.hero.x + 50) {
@@ -119,6 +120,7 @@ export default class Game {
 
             this.createFight(this.x, this.y);
             this.drawEntity(this.fight);
+            this.form.magic.classList.remove('hidden');
         }
 
         if (this.boolBang) {
@@ -325,6 +327,7 @@ export default class Game {
             } else {
                 this.enemy.addHealth(this.add);
             }
+            this.form.magic.classList.remove('hidden');
         } else if (this.form.inputText.value) {
             let count = 0;
             const wordsArrayEnglish = Object.keys(this.wordsEnglish);
@@ -347,7 +350,6 @@ export default class Game {
         this.numbersArray = [];
         this.boolFight = false;
         this.form.clearInputFormFight();
-        this.form.magic.classList.remove('hidden');
     }
 
     createFire() {

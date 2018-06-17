@@ -4,7 +4,7 @@ export default class Magic {
     constructor() {
         this.canvas = document.querySelector('#canvas');
         this.ctx = this.canvas.getContext('2d');
-        this.stage = new Stage(this.ctx, this.input);
+        this.stage = new Stage(this.ctx);
     }
 
     start() {

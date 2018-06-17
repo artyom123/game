@@ -19,12 +19,12 @@ export default class Loading {
     }
 
     drawTitle() {
-        const title = new Text(this.context, 'Loading...', '#000', 110, 'Mael');
+        const title = new Text(this.context, 'Loading...', '#fff', 110, 'Arial');
         title.draw(window.innerWidth / 2, window.innerHeight / 2);
     }
 
     changeStage() {
-        this.nextStage = 'loading';
+        this.nextStage = 'start';
     }
 
     clearStage() {

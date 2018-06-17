@@ -7,9 +7,8 @@ import Assets from '../assets';
 import bgMusic from '../../audio/game.mp3';
 
 export default class Stage {
-    constructor(ctx, input) {
+    constructor(ctx) {
         this.context = ctx;
-        this.input = input;
         this.current = 'loading';
         this.assets = new Assets();
         this.bgMusic = new Audio();

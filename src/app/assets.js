@@ -12,8 +12,6 @@ import lighting2 from '../img/game/images/lighting2.png';
 import lighting3 from '../img/game/images/lighting3.png';
 
 import bgGame1 from '../img/game/stage/bg-game1.svg';
-import bgGame2 from '../img/game/stage/bg-game2.svg';
-import bgGame3 from '../img/game/stage/bg-game3.svg';
 
 import explosion from '../img/game/images/explosion.svg';
 
@@ -51,8 +49,6 @@ export default class Assets {
         this.list.push(lighting3);
 
         this.list.push(bgGame1);
-        this.list.push(bgGame2);
-        this.list.push(bgGame3);
 
         this.list.push(bgGameOver);
 

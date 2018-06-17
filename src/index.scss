@@ -11,7 +11,11 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-size: 18px;
-    font-family: 'Teko';
+    font-family: 'Teko', Arial, sans-serif;
+}
+
+canvas {
+    background: url('./img/bgmain.jpg');
 }
 
 .container {
@@ -89,7 +93,7 @@ form.users p {
 
 input#name {
     padding: 3px 7px;
-    font-family: 'Lato';
+    font-family: 'Lato', Arial, sans-serif;
 }
 
 input#name::placeholder {
@@ -99,27 +103,6 @@ input#name::placeholder {
 
 .hidden {
     display: none !important;
-}
-
-.wordblock {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    user-select: none;
-}  
-
-
-.wordblock li {
-    margin: 3px 3px 3px 0;
-    padding: 1px;
-    width: 40px;
-    float: left;
-    font-size: 3em;
-    text-align: center;
-    cursor: pointer;
-    font-family: arial;
-    background-color: rgb(0,100,155);
-    color: white;
 }
 
 .button-rest, .button-go{
@@ -232,7 +215,7 @@ input#name::placeholder {
 .fight p {
     font-size: 2rem;
     margin: 5px 0 15px;
-    font-family: 'Lato';
+    font-family: 'Lato', Arial, sans-serif;;
     color: #fff;
 }
 
